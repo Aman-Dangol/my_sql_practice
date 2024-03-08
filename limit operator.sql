@@ -1,0 +1,10 @@
+SELECT *
+FROM customers
+LIMIT 6,3;
+-- GET ONLY N AMOINTS OF ROWS
+-- 6 = OFFSET IS EXCLUSIVE 
+
+SELECT * 
+FROM customers
+ORDER  BY points DESC
+LIMIT 3;
