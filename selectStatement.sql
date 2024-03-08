@@ -19,3 +19,10 @@ ORDER BY first_name; -- sorts tables my first name
  -- getting unique keywords only / rmeove duplicagte values
  SELECT DISTINCT state
  from customers;
+ 
+ select 
+	name,
+    unit_price,
+    unit_price * 1.1 AS 'new price'
+FROM products
+
